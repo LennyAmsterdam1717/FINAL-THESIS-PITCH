@@ -87,3 +87,11 @@ Directions covered by the five picks: signed time-activated edges (1, 2), link p
 - Data finding: `fja05680/sp500` gives ≈ 775 S&P 500 additions since 1996 → index inclusion is a clean, frequent positive control for co-movement anomalies (Barberis et al. 2005 effect).
 - Decision: merged B-1 and Card 6 around the question "expected relative to what?"; early warning (R1) kept as a secondary SQ only, because 2026 early-warning work is crowded and has few events.
 - Decision: SEC litigation releases name natural persons → only a sparse secondary label, firm/ticker level only.
+
+### Dossier 3 (event contagion) decisions and searches
+- Searches: `peer firms stock price reaction earnings announcement prediction graph neural network supply chain information transfer 2026` (extended); `bankruptcy filing contagion customers suppliers rivals abnormal returns machine learning network 2025 2026`; `UCLA-LoPucki Bankruptcy Research Database University of Florida download cases table`; `SEC Financial Statement Data Sets quarterly download sec.gov dera`; `Frankel 2025 Journal of Accounting Research earnings announcements comovement peer firms lower`.
+- Opened today: FinRipple 2505.23826 [FT]; DefaultGNN 2609.25542 [ABS]; CausalGraphX 2607.14416 [ABS]; Avramov, Ge, Li & Linton 2026 *JFE* [FT, new]; Frankel, Godigbe & Rabier 2025 *JAR* [ABS].
+- New gap evidence: Avramov et al. (JFE 2026) §3.5 say their tests do not reveal the time path of price adjustment to peer-information surprises, nor what news is transmitted.
+- New risk evidence: Frankel et al. 2025 find lower focal–peer co-movement on earnings dates *even for large surprises* → week-5 pilot on base rates is a hard go/no-go gate; severe-shock events are the fallback frequent-event source.
+- Data: LoPucki BRD cases table free but frozen at Dec 2022 → 8-K Item 1.03 for 2023–2026 (edgartools parses item titles; checked in the wheel source). Code repos cloned: TemGX, MemExplainer, DefaultGNN (no licence files on the explainers → ask before redistribution).
+- Decision: earnings-first with credit transfer (Card 4) is kept over credit-only (A-2), because A-2's event count is the binding constraint; A-2's counterfactual-XAI component is kept as SQ3. Score 57 (vs 55/54 earlier).
