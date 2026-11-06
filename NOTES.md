@@ -108,3 +108,29 @@ Directions covered by the five picks: signed time-activated edges (1, 2), link p
 - **Correction:** GeomHerd's abstract is about simulated agent graphs and does not mention 13F; the earlier "13F overlap appendix" claim stays [UNVERIFIED] and is no longer used as closest work.
 - **Data check (new):** `tools/13f_sample_events.py` on the cloned 99-manager benchmark sample: mean per quarter 522 entries / 361 exits / 3,932 continuing; 11.7 % of positions are entries; exit rate 8.4 %; 39.5 % of entries are re-entries → first-time entries are the headline metric, re-entry memory a mandatory baseline.
 - Decision: A-1 re-scored 55 → **58** (data 4→5, evaluation 4→5) because labels are exact and base rates are now known. Card B-2 (crowding anomalies) kept only as optional SQ4.
+
+### Step 4 and final checks (6 Nov 2026, evening)
+- Wrote `feasibility_overview.md`. Recommendation: **pitch Proposal 1, with Proposal 2 as an optional second chapter**. Alternatives: 3 (credit default), 5 (safest data). The summary is 180 words.
+- Score arithmetic checked by script for all five dossiers: weighted rows match the stated totals (58, 58, 57, 54, 58).
+- `references.bib` parses with bibtexparser v2: 85 entries, 0 failed blocks, no duplicate keys, every entry has a `note`.
+- Links in the "Other interesting directions" table point only to pages opened in this or earlier sessions; [SNIP] items are marked.
+
+## Open questions for the supervisor (consolidated)
+1. Which direction matters most to her: signed time-activated edges (1, 2), credit default (3), KG link prediction (4), or ownership graphs (5)?
+2. Method contribution, or an evaluation/benchmark contribution with careful baselines?
+3. Delisted US prices via UU (LSEG Workspace / FactSet)? UU's WRDS list shows no CRSP.
+4. Is LLM-extracted data (FinReflectKG, CC-BY-NC) acceptable as a relation layer or ground truth?
+5. US only, or a European robustness check?
+6. Does her group's code (LAS-GNN, TAML; the Crunchbase investor-graph projects) offer anything to reuse?
+
+## Unverified leads still open
+- Cartea, Cucuringu & Jin, *J. Empirical Finance* 2026 version (lead-lag): not found again today.
+- arXiv 2610.33171 (TLP under exhaustive ranking): rate-limited, not opened.
+- Ares-Robledo et al. 2026, *AIR* systematic review of dynamic-graph anomaly detection: only the record page was reached.
+- FinKGR (SJSU, embargoed to 2027-05-22): dataset unknown.
+- GeomHerd's 13F appendix (2 Nov claim): not confirmed by the abstract.
+
+## Actions for Frank
+- Run Google Scholar "cited by" (blocked here) on the closest papers of the chosen proposal: Krstev et al. 2026 (P1); Li et al. 2026 *Discov. Comput.* (P2); FinRipple (P3); FinReflectKG (P4); Izadifar & Rahmati 2026 (P5).
+- On your laptop: test bulk price downloads (Stooq, yfinance) and an SEC 13F/EDGAR download with a declared User-Agent.
+- Ask Krstev et al. why their price files contain 23 of the 29 listed stocks, and whether their data may be redistributed (the repo has no licence).
