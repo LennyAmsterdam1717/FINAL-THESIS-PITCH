@@ -134,3 +134,12 @@ Directions covered by the five picks: signed time-activated edges (1, 2), link p
 - Run Google Scholar "cited by" (blocked here) on the closest papers of the chosen proposal: Krstev et al. 2026 (P1); Li et al. 2026 *Discov. Comput.* (P2); FinRipple (P3); FinReflectKG (P4); Izadifar & Rahmati 2026 (P5).
 - On your laptop: test bulk price downloads (Stooq, yfinance) and an SEC 13F/EDGAR download with a declared User-Agent.
 - Ask Krstev et al. why their price files contain 23 of the 29 listed stocks, and whether their data may be redistributed (the repo has no licence).
+
+### Second pass (6 Nov, ~17:50; Frank present to approve prompts)
+- Stooq `stooq.com/db/h/` → **robots_disallowed** (approval does not help). Stooq bulk prices must be tested on the laptop.
+- FinReflectKG `arxiv.org/html/2508.17906` rate-limited again → `arxiv.org/pdf/2508.17906` **worked [FT]**: ICAIF '25; Sec. 7 names temporal KGs / time-aware features as future work; Sec. 6 limitations: LLM-voting surrogate ground truth, partial cross-document co-reference. No link prediction or KG completion. Proposal 4 updated (gap now "partly named"; score unchanged at 54).
+- arXiv 2610.33171: rate-limited twice more, and a WebSearch did not surface it → stays [UNVERIFIED].
+- AIR 2026 review: `hdl.handle.net/10609/155394` → UOC repository "Access Denied"; Springer page client_error → stays [UNVERIFIED].
+- Cartea, Cucuringu & Jin: DOI 10.1016/j.jempfin.2026.101775 resolves; **Crossref confirms** *J. Empirical Finance* 89:101775 (Nov 2026; licence start 2026-09-16). ScienceDirect and SSRN blocked → content via earlier [SNIP] only. Proposal 1 updated.
+- Krstev et al.: Crossref confirms received 2026-01-15, revised 2026-06-10, accepted 2026-06-29, online 2026-07-08, CC BY 4.0; the abstract mentions a positive-and-negative scenario. The GitHub README is empty.
+- Anchor data gap explained: price files lack XOM, CVX, COP, EOG, SLB, FMG (the whole energy group); indicator files have 28 stocks, sentiment 29.
