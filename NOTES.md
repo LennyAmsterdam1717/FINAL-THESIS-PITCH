@@ -79,3 +79,11 @@ Directions covered by the five picks: signed time-activated edges (1, 2), link p
 - Opened today: HCIM 2605.26290 [FT]; IDP-DSN 2604.18213 [FT]; DeltaLag 2511.00390 [FT partial]; Qarkaxhija & Scholtes 2609.35364 [ABS]; Yu & Ha 2607.27861 [ABS]. 2610.33171 rate-limited (still [UNVERIFIED]).
 - Data finding: the anchor's data repo lists 29 stocks but its price files contain 23; must be resolved before WP1.
 - Decision: labels on the **next non-overlapping block** (earlier cards used rolling windows with step 20 and window 120, which would let labels share 100 of 120 days with features and inflate persistence).
+
+### Dossier 2 (unexpected edges) decisions and searches
+- Searches: `edge-level anomaly detection stock correlation network unexplained co-movement company relations 2026` (extended); `temporal link prediction surprise score anomaly detection financial market network event validation 2026 arXiv`; `Graph neural networks for anomaly detection: a systematic review of dynamic temporal approaches Artificial Intelligence Review 2026`; `SEC litigation releases 2026 list sec.gov`.
+- Opened today: Caputi & Meadows 2604.02549 [FT]; Ahmed & Shafi 2608.15965 [ABS]; Ren et al. 2605.08726 [ABS]; Li et al. 2026 *Discover Computing* [FT, new closest work]; Li & Fan 2510.17088v2 [FT, new]; AIR 2026 review record [metadata only].
+- New closest work found: **Li et al. 2026 (*Discover Computing* 29:493)**: inconsistency-based stock/interval anomalies. Does not kill the idea (no edge-level, no relation-based expectation, pseudo-labels from prices), but must be cited as the position point.
+- Data finding: `fja05680/sp500` gives ≈ 775 S&P 500 additions since 1996 → index inclusion is a clean, frequent positive control for co-movement anomalies (Barberis et al. 2005 effect).
+- Decision: merged B-1 and Card 6 around the question "expected relative to what?"; early warning (R1) kept as a secondary SQ only, because 2026 early-warning work is crowded and has few events.
+- Decision: SEC litigation releases name natural persons → only a sparse secondary label, firm/ticker level only.
