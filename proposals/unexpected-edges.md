@@ -71,7 +71,7 @@ The honest difficulty: there is no list of "true" anomalous stock pairs. The the
 - **Dynamic-graph anomaly benchmarks** (BAG, DynGraphAgentBench [ABS (2 Nov)]): injected-anomaly protocols and chronological deployment windows with delayed labels transfer directly; a market edge stream would be the first financial dataset.
 - **Positive-unlabelled learning on company graphs** (Iwata 2026, "no record ≠ no risk", arXiv 2607.26859 [ABS (1 Nov)]): event calendars only mark *some* anomalies, so PU-aware metrics are needed.
 - **AML lessons from the dropped smurfing topic** (`smurfing-thesis/NOTES.md`): planted patterns with known depth, alert-budget metrics (precision@K), PU robustness. These transfer as the evaluation design.
-- **Systematic review of dynamic-graph anomaly detection** (Ares-Robledo, Rifà-Pous & Clarisó, *Artif. Intell. Rev.* 59(5), 2026, open access, doi:10.1007/s10462-026-11532-7) [record page opened today; abstract not shown → UNVERIFIED content]. Read in phase 1 for open challenges.
+- **Systematic review of dynamic-graph anomaly detection** (Ares-Robledo, Rifà-Pous & Clarisó, *Artif. Intell. Rev.* 59(5), 2026, open access, doi:10.1007/s10462-026-11532-7) [FT, read 7 Nov in the browser pane]. It reviews 79 studies, **all in cybersecurity** (intrusion, botnets, industrial control); finance is absent. Its conclusion names the shortage of robust real-world graph datasets and the weak interpretability of flagged anomalies ("limited rationale for flagged anomalies") as main barriers. *Transfer:* an edge-level financial benchmark with explanations (which expectation was violated, which relations were checked) addresses both.
 
 ### 2.4 Who is working on it (kill-test evidence)
 

@@ -143,3 +143,11 @@ Directions covered by the five picks: signed time-activated edges (1, 2), link p
 - Cartea, Cucuringu & Jin: DOI 10.1016/j.jempfin.2026.101775 resolves; **Crossref confirms** *J. Empirical Finance* 89:101775 (Nov 2026; licence start 2026-09-16). ScienceDirect and SSRN blocked → content via earlier [SNIP] only. Proposal 1 updated.
 - Krstev et al.: Crossref confirms received 2026-01-15, revised 2026-06-10, accepted 2026-06-29, online 2026-07-08, CC BY 4.0; the abstract mentions a positive-and-negative scenario. The GitHub README is empty.
 - Anchor data gap explained: price files lack XOM, CVX, COP, EOG, SLB, FMG (the whole energy group); indicator files have 28 stocks, sentiment 29.
+
+### Third pass (7 Nov 2026, built-in browser pane in the desktop app)
+- Krstev et al. (Springer) → **opened [FT]**. §5: future work = larger datasets, other financial domains (crypto), interpretability. §3.1 Eq. 1: "negative" = both returns below −ε one day apart (same direction); statistical methods left out of scope. Proposal 1 table updated with a verbatim quote.
+- Ares-Robledo et al., *AIR* 2026 (Springer) → **opened [FT]**: 79 studies, cybersecurity only; barriers = scalability, scarce real-world datasets, interpretability. Proposal 2 §2.3 updated.
+- arXiv 2610.33171 → **opened [ABS]**: Amarnath R (23 Oct 2026), retrospective reconstruction of hidden interactions on tgbl-wiki/comment; uses exhaustive and historical-random ranking. Tangential; not cited in the dossiers.
+- GeomHerd 2605.11645 HTML → **opened [FT]**: Appendix I builds a 13F fund-overlap graph (Jaccard, W = 4 quarters), qualitative only, quantitative comparison "deferred"; Appendix J future work names real-market 13F fund-overlap deployments. This **reverses** the 6 Nov correction; Proposal 5 updated (gap now partly named by two papers; score unchanged).
+- Cartea et al. (ScienceDirect) → HTTP 403; Frankel et al. (Wiley) → Cloudflare "Just a moment" verification. **Not attempted further** (no CAPTCHA/bot-check workarounds). Frank to open both himself.
+- BAG (AAAI) not retried: the GitHub repo already gives what the dossier needs.
